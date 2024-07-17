@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to top, #bbbbbb, #dbdbdb);
+    background-repeat: no-repeat;
+    font-family: system-ui;
+    padding: 5vh 10vw;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+p {
+    text-align: justify;
+    padding-bottom: 16px;
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.off-page-nav {
+    position: absolute;
+    left: -1000px;
+
+}
+
+.off-page-nav:focus {
+    position: static;
+}
