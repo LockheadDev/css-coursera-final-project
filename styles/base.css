@@ -1,16 +1,22 @@
 html {
     height: 100%;
-    background: linear-gradient(to top, #405D72, #758694);
+    background-color: #405D72;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 body {
     background-repeat: no-repeat;
     font-family: system-ui;
+}
+
+main {
     padding: 2vh 4vw;
     margin: 2vh 4vw;
-    background-color:#FFF8F3;
+    background-color: #FFF8F3;
     border-radius: 8px;
-
 }
 
 h1 {
@@ -28,14 +34,35 @@ ul {
     list-style-type: circle;
 }
 
+ul{
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px grey;
+    padding: 12px 12px 12px 64px;
+}
+
+ul:hover{
+    box-shadow: 2px 2px 2px #0F67B1;
+}
+
 li {
     margin-bottom: 8px;
+}
+
+footer p {
+    text-align: center;
+    font-size: large;
+    color: #FFF8F3;
+}
+
+aside {
+    text-align: center;
+    color: #FFF8F3;
 }
 
 .off-page-nav {
     position: absolute;
     left: -1000px;
-
 }
 
 .off-page-nav:focus {
@@ -43,12 +70,12 @@ li {
 }
 
 .back-link {
-    float: left;
     text-decoration: none;
-    color: #EF5A6F;
+    color: #FFF8F3;
+    font-weight: bold;
+    line-height: 64px;
 }
 
 .char-highlight {
     font-size: 24px;
-    font-weight: bold;
 }
