@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+    background: linear-gradient(to top, #405D72, #758694);
+}
+
+body {
+    background-repeat: no-repeat;
+    font-family: system-ui;
+    padding: 2vh 4vw;
+    margin: 2vh 4vw;
+    background-color:#FFF8F3;
+    border-radius: 8px;
+
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+p {
+    text-align: justify;
+    padding-bottom: 16px;
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.off-page-nav {
+    position: absolute;
+    left: -1000px;
+
+}
+
+.off-page-nav:focus {
+    position: static;
+}
+
+.back-link {
+    float: left;
+    text-decoration: none;
+    color: #EF5A6F;
+}
+
+.char-highlight {
+    font-size: 24px;
+    font-weight: bold;
+}
