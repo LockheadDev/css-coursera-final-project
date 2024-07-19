@@ -8,14 +8,11 @@
 .grid-item {
     border-radius: 8px;
     background-color: #FFFFFF;
-    box-shadow: 2px 2px 2px grey;
+    box-shadow: 1px 1px 6px 1px lightslategray;
     max-width: 50vw;
     height: 40vh;
 }
 
-.grid-item:hover {
-    box-shadow: 2px 2px 2px #0F67B1;
-}
 
 .card-title {
     text-align: center;
