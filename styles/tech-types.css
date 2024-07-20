@@ -9,7 +9,8 @@
     border-radius: 8px;
     background-color: #FFFFFF;
     box-shadow: 1px 1px 6px 1px lightslategray;
-    max-width: 50vw;
+    width: 50vw;
+    
     height: auto;
 }
 
@@ -20,7 +21,7 @@
 
 .card-content {
     text-align: justify;
-    padding: 4px 24px;
+    padding: 8px 24px;
 }
 
 .center-content {
@@ -35,5 +36,5 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 25%;
 }
