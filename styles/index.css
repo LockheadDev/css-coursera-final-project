@@ -1,10 +1,18 @@
-a{
+a {
     color: #3FA2F6;
     font-weight: bold;
 }
 
-.banner-image{
+a:hover {
+    color: #31618a;
+}
+
+a:visited {
+    color: purple;
+}
+
+.banner-image {
     width: 100%;
     border-radius: 12px;
-    mask-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1));
+    mask-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
 }

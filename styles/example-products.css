@@ -15,6 +15,11 @@
     transition: transform 0.3s ease;
 }
 
+.card h2 {
+    height: 72px;
+    vertical-align: middle;
+}
+
 .card:hover {
     transform: translateY(-10px);
 }
