@@ -10,7 +10,6 @@
     background-color: #FFFFFF;
     box-shadow: 1px 1px 6px 1px lightslategray;
     width: 50vw;
-    
     height: auto;
 }
 
@@ -38,3 +37,12 @@
     margin-right: auto;
     width: 25%;
 }
+
+.grid-item:hover {
+    background-color: #dcdcf7;
+}
+
+.grid-item:active {
+    opacity: 0.8;
+}
+
